@@ -3,7 +3,7 @@
 pass="sen31994"
 
 
-wget https://https://github.com/kenny2223/ldap/blob/main/issabel-ldap-1.0.0.tgz?raw=true -O issabel-ldap-1.0.0.tgz
+wget https://github.com/kenny2223/ldap/blob/main/issabel-ldap-1.0.0.tgz?raw=true -O issabel-ldap-1.0.0.tgz
 
 tar -xvzf issabel-ldap-1.0.0.tgz
 cd issabel-ldap-1.0.0
@@ -13,7 +13,7 @@ echo -e "$pass\n$pass\n" | make install
 chmod 666  /etc/sysconfig/issabel-ldap
 
 
-wget https://https://github.com/kenny2223/ldap/blob/main/ldap.tar.gz?raw=true -O ldap.tar.gz
+wget https://github.com/kenny2223/ldap/blob/main/ldap.tar.gz?raw=true -O ldap.tar.gz
 
 tar -xvzf ldap.tar.gz
 
